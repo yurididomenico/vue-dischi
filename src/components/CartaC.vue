@@ -10,11 +10,11 @@
         </div> -->
 
         <div class="carta">
-            <img src="https://i.stack.imgur.com/xJida.png">
+            <img :src="dettagliCarta.poster">
             <div>
-                <h5>TITOLO</h5>
-                <p>Artista</p>
-                <p>Anno</p>
+                <h5>{{dettagliCarta.title}}</h5>
+                <p>{{dettagliCarta.author}}</p>
+                <p>{{dettagliCarta.year}}</p>
             </div>
         </div>
         
@@ -25,6 +25,9 @@
   
   export default {
     name: 'CartaC',
+    props: {
+        dettagliCarta: Object
+    }
   }
   </script>
   
@@ -44,6 +47,11 @@
         width: 100%;
         aspect-ratio: 1/1;
         display: hidden;
+    }
+    
+    p
+    {
+        color: grey;
     }
   }
   </style>
