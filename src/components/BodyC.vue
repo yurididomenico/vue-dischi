@@ -1,9 +1,7 @@
 <template>
   <div id="BodyC" class="p-5">
-    <div  class="container py-5">
-      <div class="d-flex flex-wrap ">
-        <CartaC v-for="(elem, index) in 10" :key="index"/>
-      </div>
+    <div class="container py-5 d-flex flex-wrap justify-content-between">
+      <CartaC v-for="(elem, index) in 10" :key="index"/>
     </div>
   </div>
 </template>
