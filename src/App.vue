@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app" class="d-flex flex-column">
     <HeaderC/>
-    <BodyC/>
+    <BodyC class="flex-grow-1"/>
   </div>
 </template>
 
@@ -23,5 +23,6 @@ export default {
   #app
   {
     color: white;
+    height: 100vh;
   }
 </style>

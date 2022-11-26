@@ -51,5 +51,6 @@ export default {
 .container
 {
   gap: 50px;
+  
 }
 </style>
