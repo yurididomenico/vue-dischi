@@ -10,7 +10,7 @@
         </div> -->
 
         <div class="carta">
-            <img :src="dettagliCarta.poster">
+            <img :src="dettagliCarta.poster" class="mb-3">
             <div>
                 <h5>{{dettagliCarta.title}}</h5>
                 <p>{{dettagliCarta.author}}</p>
@@ -39,7 +39,7 @@
     text-align: center;
     // width: 250px;
     width: calc(100% / 5 - 40px);
-    margin-bottom: 40px;
+    // margin-bottom: 40px;
     
     
     img
@@ -47,6 +47,7 @@
         width: 100%;
         aspect-ratio: 1/1;
         display: hidden;
+        
     }
     
     p
