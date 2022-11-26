@@ -15,6 +15,12 @@ export default {
 #HeaderC
 {
   background-color: #2e3a46;
+  svg:hover
+  {
+    scale: 1.3;
+    transition-duration: 300ms;
+    cursor: pointer;
+  }
 }
 .spotify-logo
 {
