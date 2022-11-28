@@ -40,7 +40,6 @@
     {
         color: grey;
     }
-
     &:hover
     {
         scale: 1.2;
@@ -49,4 +48,3 @@
     
   }
   </style>
-  

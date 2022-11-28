@@ -1,3 +1,13 @@
+<!--
+  Descrizione:
+  Aggiungere una select per filtrare i dischi
+  in base al genere:
+    -quando l'utente seleziona un 
+    genere dalla lista, vengono visualizzati
+    solamente i dischi con il genere
+    corrispondente.
+-->
+
 <template>
   <div id="app" class="d-flex flex-column">
     <HeaderC/>
@@ -6,7 +16,6 @@
 </template>
 
 <script>
-
 import HeaderC from './components/HeaderC.vue'
 import BodyC from './components/BodyC.vue'
 
