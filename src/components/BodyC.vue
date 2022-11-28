@@ -2,13 +2,13 @@
   <div id="BodyC" class="p-5">
     <div class="container d-flex align-items-center">
       <h3>Filtra:</h3>
-      <select class="form-select w-25 " aria-label="Default select example" v-model="scelta" @click="test()">
+      <select class="form-select w-25 " aria-label="Default select example" v-model="scelta">
         <option value="">Tutti</option>
         <option v-for="(elem, index) in vettoreGeneri" :key="index">{{elem}}</option>     
       </select>
     </div>
     <div class="container py-5 d-flex flex-wrap justify-content-around ">
-      <CartaC v-for="(elem, index) in arrayTest"
+      <CartaC v-for="(elem, index) in vettoreFiltrato"
       :key="index"
       :dettagliCarta="elem"/>
     </div>
@@ -54,7 +54,9 @@ export default {
   },
   beforeUpdate()
   {
-    if(this.scelta == '')
+      console.log("ciao");
+      this.vettoreFiltrato = this.arrayTest
+      if(this.scelta == '')
       {
         return this.arrayTest
       }
