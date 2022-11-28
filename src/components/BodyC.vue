@@ -3,6 +3,7 @@
     <div class="container d-flex align-items-center">
       <h3>Filtra:</h3>
       <select class="form-select w-25 " aria-label="Default select example">
+        <option value="default">Tutti</option>
         <option v-for="(elem, index) in vettoreGeneri" :key="index">{{elem}}</option>     
       </select>
     </div>
