@@ -28,9 +28,8 @@
     color: inherit;
     text-align: center;
     text-decoration: none;
-    width: calc(100% / 5 - 40px);
-    transition-duration: 300ms;
-    
+    width: calc(100% / 5 - 40px);   
+         
     img
     {
         width: 100%;
@@ -47,6 +46,7 @@
         scale: 1.2;
         transition-duration: 300ms;
     }
+    
   }
   </style>
   

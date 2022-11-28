@@ -30,7 +30,7 @@ export default {
     {
       this.arrayTest = response.data.response;
       response.data.response[0].poster = "https://s7.orientaltrading.com/is/image/OrientalTrading/16_878d?$PDP_VIEWER_IMAGE$";
-      response.data.response[0].author = "Four Duck Developers";
+      response.data.response[0].author = "Four Ducks Developers";
       response.data.response[0].title = "What a DUCK?!";
       response.data.response[0].year = "2022";
 
@@ -45,6 +45,7 @@ export default {
 <style scoped lang="scss">
 #BodyC
 {
+  
   background-color: #1e2d3b;
 }
 
